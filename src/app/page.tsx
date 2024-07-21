@@ -21,14 +21,14 @@ export default function Home() {
   return (
     <main className="flex flex-col space-y-10">
       <Header />
-      <Hero />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <FAQ />
-      <ServiceAndBlog />
-      <CallToAction />
-      <Footer />
+      {/* <Hero /> */}
+      {/* <SectionOne /> */}
+      {/* <SectionTwo /> */}
+      {/* <SectionThree /> */}
+      {/* <FAQ /> */}
+      {/* <ServiceAndBlog /> */}
+      {/* <CallToAction /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
