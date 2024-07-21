@@ -4,7 +4,7 @@ import HeroRight from "./hero-right";
 
 export default function Hero() {
   return (
-    <div className="mx-auto flex flex-col max-w-7xl p-6 lg:px-8 md:flex-row">
+    <div className="mx-auto flex flex-col max-w-7xl p-3 lg:px-8 md:flex-row">
       <HeroLeft />
       <HeroRight />
     </div>
