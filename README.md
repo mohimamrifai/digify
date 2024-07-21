@@ -1,1 +1,1 @@
-![Screenshot dari Aplikasi](banner-github.png)
+![Screenshot dari Aplikasi](https://github.com/mohimamrifai/digify/blob/main/public/banner-github.png)
