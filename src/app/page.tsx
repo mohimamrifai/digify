@@ -22,7 +22,7 @@ export default function Home() {
     <main className="flex flex-col space-y-10">
       <Header />
       <Hero />
-      {/* <SectionOne /> */}
+      <SectionOne />
       {/* <SectionTwo /> */}
       {/* <SectionThree /> */}
       {/* <FAQ /> */}
