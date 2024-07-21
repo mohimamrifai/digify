@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className="flex flex-col space-y-10">
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       {/* <SectionOne /> */}
       {/* <SectionTwo /> */}
       {/* <SectionThree /> */}
