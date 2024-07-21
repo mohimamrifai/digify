@@ -45,9 +45,9 @@ export default function HeroRight() {
         <p className="text-lg font-semibold w-8/12 pt-3">
           Drive more traffic and product sales.
         </p>
-        <div className="absolute bg-white w-10 h-32 right-5 bottom-0"></div>
-        <div className="absolute bg-white w-10 h-24 right-16 bottom-0"></div>
-        <div className="absolute bg-white w-10 h-16 right-28 bottom-0"></div>
+        <div className="absolute bg-white w-8 md:w-10 h-28 md:h-32 right-5 bottom-0"></div>
+        <div className="absolute bg-white w-8 md:w-10 h-20 md:h-24 right-16 bottom-0"></div>
+        <div className="absolute bg-white w-8 md:w-10 h-12 md:h-16 right-28 bottom-0"></div>
       </div>
     </motion.div>
   );
