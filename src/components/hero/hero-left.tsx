@@ -13,7 +13,7 @@ export default function HeroLeft() {
       transition={{ duration: 0.5, delay: 0.5 }}
       className="lg:w-7/12 w-10/12 flex flex-col md:space-y-10 space-y-5"
     >
-      <h1 className="text-4xl md:text-5xl font-semibold lg:w-10/12">
+      <h1 className="text-3xl md:text-5xl font-semibold lg:w-10/12">
         Keep leading the way with our progressive mindset.
       </h1>
       <p className="text-muted-foreground md:w-8/12">

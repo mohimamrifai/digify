@@ -10,7 +10,7 @@ export default function HeroRight() {
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 1 }}
-      className="flex flex-col lg:w-5/12 mt-5 md:mt-0 p-5"
+      className="flex flex-col lg:w-5/12 mt-5 md:mt-0 py-5 px-1"
     >
       <div className="flex gap-3 relative">
         <div className="w-6/12 bg-gray-200 rounded-xl flex items-center justify-center rounded-tl-full overflow-hidden">
