@@ -19,7 +19,7 @@ export default function SectionOne() {
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-3">
         <div
-          className="p-16 flex items-center justify-center text-4xl md:text-5xl font-medium rounded-lg md:w-9/12 relative overflow-hidden text-white
+          className="p-10 md:p-16 flex items-center justify-center text-4xl md:text-5xl font-medium rounded-lg md:w-9/12 relative overflow-hidden text-white
         "
         >
           <div className="my-10">How We Work</div>
@@ -29,7 +29,7 @@ export default function SectionOne() {
           <div className="absolute w-full top-0 h-full left-0 -z-10 bg-gray-900/40"></div>
         </div>
         <div className="flex px-6 py-10 items-center rounded-xl md:items-start relative overflow-hidden text-white gap-3 md:flex-col rounded-br-[52px]">
-          <h2 className="text-5xl font-medium lg:text-6xl">400+</h2>
+          <h2 className="text-4xl md:text-5xl font-medium lg:text-6xl">400+</h2>
           <div className="flex flex-col h-full justify-between md:space-y-3">
             <p className="text-xl font-medium">Project completed with excellence.</p>
             <div className="flex items-center">
