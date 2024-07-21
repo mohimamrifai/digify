@@ -30,7 +30,7 @@ export default function HeroLeft() {
       </div>
       <div className="grid grid-cols-2 md:w-11/12 md:flex md:space-x-4 md:justify-between gap-5 py-5 md:pt-0">
         <div className="text-muted-foreground text-sm font-semibold">
-          Trusted by the world's biggest brands
+          Trusted by the world&apos;s biggest brands
         </div>
         <div className="w-28">
           <Image
@@ -44,7 +44,7 @@ export default function HeroLeft() {
         <div className="w-28">
           <Image
             src="/logo_dua.png"
-            alt="logo satu"
+            alt="logo dua"
             width={1000}
             height={1000}
             className="w-full h-full"
@@ -53,7 +53,7 @@ export default function HeroLeft() {
         <div className="w-28">
           <Image
             src="/logo_tiga.png"
-            alt="logo satu"
+            alt="logo tiga"
             width={1000}
             height={1000}
             className="w-full h-full"
