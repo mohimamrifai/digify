@@ -21,10 +21,10 @@ export default function HeroLeft() {
         web development, dedicated to understanding your needs.
       </p>
       <div className="flex gap-5 items-center justify-between w-max">
-        <button className="flex items-center justify-between py-2 px-5 bg-blue-500 rounded-full w-max text-white gap-3 font-semibold group">
+        <button className="flex items-center justify-between py-2 px-5 bg-blue-500 rounded-full w-max text-white gap-3 font-semibold group text-sm">
           Schedule Call <ArrowRight className="group-hover:ms-2 duration-300 transition-all" />
         </button>
-        <Link href="/" className="underline font-semibold">
+        <Link href="/" className="underline font-semibold text-sm">
           View Case Study
         </Link>
       </div>
