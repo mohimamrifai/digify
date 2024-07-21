@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <Hero />
       <SectionOne />
-      {/* <SectionTwo /> */}
+      <SectionTwo />
       {/* <SectionThree /> */}
       {/* <FAQ /> */}
       {/* <ServiceAndBlog /> */}
