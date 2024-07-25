@@ -15,7 +15,7 @@ export default function ServiceAndBlog() {
             provide a comprehensive range of services to help clients enhance
             their search engine rankings and increase website traffic.
           </p>
-          <button className="px-2 py-1 text-sm rounded-full border-2 w-max">
+          <button className="px-2 py-1 text-sm rounded-full border-2 w-max hover:bg-blue-500 hover:text-white transition-all duration-300">
             See More
           </button>
         </div>
@@ -30,8 +30,8 @@ export default function ServiceAndBlog() {
             <h2 className="text-2xl font-semibold w-11/12">How a Digital Marketing Agency Can Enhance Your Business</h2>
             <div className="flex md:flex-row flex-col justify-between gap-3 items-start md:items-center">
               <p className="text-muted-foreground text-sm w-11/12">We are the top digital marketing agency for Branding Corp. We provide a comprehensive arra...</p>
-              <button className="px-3 py-1 rounded-full border-2 h-max">
-                <ArrowRight />
+              <button className="px-3 py-1 rounded-full border-2 h-max hover:bg-blue-500 hover:text-white transition-all duration-300">
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>

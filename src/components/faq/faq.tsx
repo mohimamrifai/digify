@@ -17,7 +17,7 @@ export default function FAQ() {
           assist our clients.
         </p>
         <div>
-          <button className="py-2 px-4 rounded-full border-2 text-sm font-semibold">
+          <button className="py-2 px-4 rounded-full border-2 text-sm font-semibold hover:bg-blue-500 transition-all duration-300 hover:text-white">
             More Questions
           </button>
           <button className="py-2 px-4 text-sm underline font-semibold">
@@ -28,7 +28,7 @@ export default function FAQ() {
       <div className="md:w-6/12">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Why is digital marketing essential for my business?
             </AccordionTrigger>
             <AccordionContent>
@@ -40,7 +40,7 @@ export default function FAQ() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Why is digital marketing essential for my business?
             </AccordionTrigger>
             <AccordionContent>
@@ -52,7 +52,7 @@ export default function FAQ() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Why is digital marketing essential for my business?
             </AccordionTrigger>
             <AccordionContent>

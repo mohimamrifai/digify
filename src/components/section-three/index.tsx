@@ -38,7 +38,7 @@ export default function SectionThree() {
           {testimonials.map((testimonial) => (
             <CarouselItem className="py-10" key={testimonial.id}>
               <div className="md:flex md:flex-col md:justify-between">
-                <p className="font-semibold text-xl md:text-3xl w-11/12 md:mb-10">{testimonial.testimony}</p>
+                <p className="font-semibold text-2xl md:text-3xl w-11/12 md:mb-10">{testimonial.testimony}</p>
                 <div className="flex items-center mt-5 gap-2">
                   <div className="w-10 h-10 rounded-full relative overflow-hidden">
                     <Image src="/user-one.jpg" alt="user one" width={1000} height={1000}  />
@@ -52,7 +52,7 @@ export default function SectionThree() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="absolute right-20 bottom-24 md:bottom-10 lg:bottom-16">
+        <div className="absolute right-20 bottom-16 md:bottom-10 lg:bottom-16">
           <CarouselPrevious />
           <CarouselNext />
         </div>

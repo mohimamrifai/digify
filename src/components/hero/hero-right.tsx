@@ -21,7 +21,7 @@ export default function HeroRight() {
             height={1000}
             className="h-full w-full object-cover"
           />
-          <div className="absolute left-10 top-3 bg-blue-500 w-16 h-16 z-30 rounded-full flex items-center justify-center">
+          <div className="absolute left-10 top-3 bg-blue-500 w-16 h-16 z-10 rounded-full flex items-center justify-center">
             <TrendingUp className="w-8 h-8 text-white" />
           </div>
         </div>

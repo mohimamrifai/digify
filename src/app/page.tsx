@@ -19,7 +19,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="flex flex-col space-y-10">
+    <main className="flex flex-col space-y-10 overflow-x-hidden">
       <Header />
       <Hero />
       <SectionOne />
@@ -29,6 +29,7 @@ export default function Home() {
       <ServiceAndBlog />
       <CallToAction />
       <Footer />
+      <p className="py-3 text-center bg-gray-900 text-white text-sm">Create with love @imamrifai</p>
     </main>
   );
 }
