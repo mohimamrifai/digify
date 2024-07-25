@@ -23,7 +23,7 @@ const linksFooter = [
 
 export default function Footer() {
   return (
-    <div className="p-6 grid grid-cols-1 md:grid-cols-4 md:justify-between md:space-x-5 md:w-11/12 md:mx-auto">
+    <div className="p-6 grid grid-cols-1 md:grid-cols-4 md:justify-between md:space-x-5 md:w-11/12 md:mx-auto space-y-5">
       <div className="flex flex-col space-y-5">
         <Link
           href="/"
@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
       {linksFooter.map((item) => (
         <div key={item.title} className="flex flex-col space-y-3">
-          <Link className="font-semibold pb-4 w-max" href="/">
+          <Link className="font-semibold md:pb-4 w-max" href="/">
             {item.title}
           </Link>
           {item.links.map((l) => (
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       ))}
       <div className="flex flex-col space-y-3">
-        <Link className="font-semibold pb-4 w-max" href="/">
+        <Link className="font-semibold md:pb-4 w-max" href="/">
           Contact
         </Link>
         <Link
