@@ -26,8 +26,7 @@ const testimonials = [
     name: "Alice Johnson",
     position: "HR Manager, FinTech Corp",
     testimony: "The user interface is intuitive and our team adapted to it quickly. The overall experience has been fantastic and it's improved our workflow remarkably."
-  },
-  // Add more testimonials as needed
+  }
 ];
 
 export default function SectionThree() {
